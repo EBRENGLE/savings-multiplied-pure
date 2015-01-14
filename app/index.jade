@@ -14,26 +14,37 @@ html(lang="en-US")
 
     .pure-g
       .pure-u-1.header
-        .header-box
-          img(src='https://raw.githubusercontent.com/elizabrock/SavingsMultipliedRedux/master/app/assets/images/savings-multiplied-logo.png')
-
-      .pure-u-1.main-nav
-          ul
-            li Buy
-            li Sell
-            li How it Works
-            li Links
-            li Community
+        .pure-g.header-box
+          .pure-u-10-24
+            img.left-header-image(src='https://raw.githubusercontent.com/elizabrock/SavingsMultipliedRedux/master/app/assets/images/savings-multiplied-logo.png')
+          .pure-u-14-24
+            ul.heading-navigation
+              li.about-nav About
+              li.contact-nav Contact
+              li.blog-nav Blog
+              li.press-nav Press
+      .pure-u-1
+        .pure-g.main-nav
+          .pure-u-1-3
+          .pure-u-1-3
+            ul.navigation
+              li Buy
+              li Sell
+              li How it Works
+              li Links
+              li Community
+          .pure-u-1-3
 
       .pure-u-1.body-wrapper
         .pure-g.main-content-wrapper
           .pure-u-3-5
+            h3 We're making one aspect of life easier for parents of multiples:
             img(src='https://raw.githubusercontent.com/elizabrock/SavingsMultipliedRedux/master/app/assets/images/homepage/left_2_register.png')
           .pure-u-2-5
             .main-content-kids
               img(src='https://raw.githubusercontent.com/elizabrock/SavingsMultipliedRedux/master/app/assets/images/children/twins.jpg')
               img(src='https://raw.githubusercontent.com/elizabrock/SavingsMultipliedRedux/master/app/assets/images/children/triplets.jpg')
               img(src='https://raw.githubusercontent.com/elizabrock/SavingsMultipliedRedux/master/app/assets/images/children/quads.jpg')
-              p We're making one aspect of life easier for parents of multiples:
+              
 
     script(src="js/main.js")

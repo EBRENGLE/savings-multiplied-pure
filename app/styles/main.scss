@@ -1,12 +1,26 @@
 @import "variables";
 @import "headings";
 
+//Fonts and Font-Family Variables From GitHub
+
+$header-font-family: "cooper-black-std", serif;
+$header-font-weight: normal;
+
+$h2-font-size: em-calc(28);
+$h3-font-size: em-calc(24);
+$h4-font-size: em-calc(18);
+$h5-font-size: em-calc(16);
+
+$body-font-family: 'Tahoma Regular', "Helvetica Neue", "Helvetica", Helvetica, Arial, sans-serif;
+
 .header {
 	background-color: #CDEEEC;
 	height: 50;
 }
 
-
+.left-header-image {
+	margin-top: -50px;
+}
 
 .main-nav {
 	background-color: #F2BEC8;
@@ -23,11 +37,23 @@
 	border-radius: 20px 20px 0 0;
 }
 
+.heading-navigation {
+	text-align: center;
+}
+
+.heading-navigation li {
+		display: inline;
+		list-decoration: none;
+		text-align: center;
+}
+
 .main-nav ul li {
 	display: inline;
-	padding-right: 20px;
-	padding-top: 5px;
-	padding-bottom: 5px;
+	font-family: $header-font-family;
+	font-weight: $header-font-weight;
+	// padding-right: 20px;
+	// padding-top: 5px;
+	// padding-bottom: 5px;
 }
 
 .body-wrapper {
@@ -40,9 +66,33 @@
 	background-color: white;
 	margin-left: 10%;
 	margin-right: 10%;
+	margin-bottom: 50px;
 	border-radius: 0 0 20px 20px;
+	padding: 30px;
 }
 
-.main-content-wrapper {
-	margin-bottom: 50px;
+.about-nav, .contact-nav, .blog-nav, .press-nav {
+	color: white;
+	padding: 7px 40px;
+	border-radius: 45px;
+}
+
+.about-nav {
+	background-color: #65C0C7;
+}
+
+.contact-nav {
+	background-color: #7bad22;
+}
+
+.blog-nav {
+	background-color: #5c177b;
+}
+
+.press-nav {
+	background-color: #e3007a;
+}
+
+h3 {
+	color: #7aab22;
 }
