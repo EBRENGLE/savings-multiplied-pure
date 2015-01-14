@@ -2,7 +2,7 @@
   "name": "savings-multiplied-pure",
   "version": "0.0.1",
   "homepage": "https://github.com/EBRENGLE/savings-multiplied-pure",
-  "authors": [
+  "authors": ["Eric Brengle <eric.brengle@gmail.com>",
     "Devin Readel <readeldj@gmail.com>"
   ],
   "description": "Pure CSS Project",
