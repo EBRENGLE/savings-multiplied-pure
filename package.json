@@ -1,0 +1,19 @@
+{
+  "name": "savings-multiplied-pure",
+  "version": "0.0.1",
+  "description": "We are attempting to recreate this website using the Pure framework.",
+  "main": "public/index.html",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/EBRENGLE/savings-multiplied-pure.git"
+  },
+  "authors": ["Eric Brengle <eric.brengle@gmail.com>", "Devin Readel"],
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/EBRENGLE/savings-multiplied-pure/issues"
+  },
+  "homepage": "https://github.com/EBRENGLE/savings-multiplied-pure"
+}
