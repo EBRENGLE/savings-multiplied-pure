@@ -1,15 +1,48 @@
 @import "variables";
 @import "headings";
 
-.main-header {
+.header {
 	background-color: #CDEEEC;
-	height: 50px;
+	height: 50;
 }
+
+
 
 .main-nav {
 	background-color: #F2BEC8;
+	padding: 0;
+	margin: 0;
+}
+
+.header-box {
+	background-color: white;
+	margin-left: 10%;
+	margin-right: 10%;
+	margin-top: 50px;
+	margin-bottom: 0;
+	border-radius: 20px 20px 0 0;
+}
+
+.main-nav ul li {
+	display: inline;
+	padding-right: 20px;
+	padding-top: 5px;
+	padding-bottom: 5px;
 }
 
 .body-wrapper {
 	background-color: #65C0C8;
+	padding: 0;
+	margin: 0;
+}
+
+.main-content-wrapper {
+	background-color: white;
+	margin-left: 10%;
+	margin-right: 10%;
+	border-radius: 0 0 20px 20px;
+}
+
+.main-content-wrapper {
+	margin-bottom: 50px;
 }

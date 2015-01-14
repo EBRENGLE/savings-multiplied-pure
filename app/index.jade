@@ -12,14 +12,12 @@ html(lang="en-US")
   body
     // [if lt IE 9]><script src="http://html5shiv.googlecode.com/svn/trunk/html5.js"></script><![endif]
 
-    header.pure-g
-      .pure-u-1
-        .main-header
-          H1 This is my header.
+    .pure-g
+      .pure-u-1.header
+        .header-box
+          img(src='https://raw.githubusercontent.com/elizabrock/SavingsMultipliedRedux/master/app/assets/images/savings-multiplied-logo.png')
 
-    nav.pure-g
-      .pure-u-1
-        .main-nav
+      .pure-u-1.main-nav
           ul
             li Buy
             li Sell
@@ -27,9 +25,15 @@ html(lang="en-US")
             li Links
             li Community
 
-    div.pure-g
-      .pure-u-1
-        .body-wrapper
-          p We're making one aspect of life easier for parents of multiples:
+      .pure-u-1.body-wrapper
+        .pure-g.main-content-wrapper
+          .pure-u-3-5
+            img(src='https://raw.githubusercontent.com/elizabrock/SavingsMultipliedRedux/master/app/assets/images/homepage/left_2_register.png')
+          .pure-u-2-5
+            .main-content-kids
+              img(src='https://raw.githubusercontent.com/elizabrock/SavingsMultipliedRedux/master/app/assets/images/children/twins.jpg')
+              img(src='https://raw.githubusercontent.com/elizabrock/SavingsMultipliedRedux/master/app/assets/images/children/triplets.jpg')
+              img(src='https://raw.githubusercontent.com/elizabrock/SavingsMultipliedRedux/master/app/assets/images/children/quads.jpg')
+              p We're making one aspect of life easier for parents of multiples:
 
     script(src="js/main.js")
