@@ -6,13 +6,30 @@ html(lang="en-US")
     meta(name="viewport", content="width=device-width, initial-scale=1")
     title Pure
     link(rel="stylesheet" href="/vendor/pure/pure-min.css")
+     
     link(rel="stylesheet" href="css/main.css")
 
   body
     // [if lt IE 9]><script src="http://html5shiv.googlecode.com/svn/trunk/html5.js"></script><![endif]
 
-    .container
-      img(src="img/NSS-logo-primary.svg", alt="NSS Logo", title="Nashville Software School")
-      h1 Hello World
+    header.pure-g
+      .pure-u-1
+        .main-header
+          H1 This is my header.
+
+    nav.pure-g
+      .pure-u-1
+        .main-nav
+          ul
+            li Buy
+            li Sell
+            li How it Works
+            li Links
+            li Community
+
+    div.pure-g
+      .pure-u-1
+        .body-wrapper
+          p We're making one aspect of life easier for parents of multiples:
 
     script(src="js/main.js")
