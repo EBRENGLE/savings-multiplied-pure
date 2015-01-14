@@ -1,0 +1,19 @@
+{
+  "name": "savings-multiplied-pure",
+  "version": "0.0.1",
+  "homepage": "https://github.com/EBRENGLE/savings-multiplied-pure",
+  "authors": [
+    "Devin Readel <readeldj@gmail.com>"
+  ],
+  "description": "Pure CSS Project",
+  "main": "git@github.com:EBRENGLE/savings-multiplied-pure.git",
+  "license": "MIT",
+  "private": true,
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ]
+}
