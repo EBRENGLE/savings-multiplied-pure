@@ -147,6 +147,12 @@ h3 {
 .main-content-kids {
 	width:
 }
+.main-content-wrapper p a{
+	font-family: $header-font-family;
+	font-weight: $header-font-weight;
+	font-size: 2.2em;
+	color: #398A91;
+}
 
 .pagebreak {
 	width: 900px;
@@ -160,7 +166,8 @@ h3 {
 	color: #5B1339;
 }
 .navigation li{
-
+	font-family: $header-font-family;
+	font-weight: $header-font-weight;
 }
 .navigation li:nth-child(n+2){
 	padding-left:5em;
