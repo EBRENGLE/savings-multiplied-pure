@@ -157,19 +157,19 @@ h3 {
 .navigation li a{
 	font-family: 'Lemon', cursive;
 	font-size: 2em;
-	vertical-align: middle;
-
-
+	color: #5B1339;
 }
 .navigation li{
-	vertical-align: top;
-	display: inline-block;
-	left-margin: auto;
-	right-margin: auto;
 
 }
+.navigation li:nth-child(n+2){
+	padding-left:5em;
+}
 .navigation{
-	text-align: center;
+	padding-top:.75em;
+	padding-bottom: .75em;
+margin:auto;
+text-align: center;
 }
 
 .link-soup-nav li {
