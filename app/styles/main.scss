@@ -51,6 +51,7 @@ $body-font-family: 'Tahoma Regular', "Helvetica Neue", "Helvetica", Helvetica, A
 		font-size: 20px;
 }
 
+
 .textlinks {
 	list-style-type: none;
 	float: right;
@@ -161,9 +162,14 @@ h3 {
 
 }
 .navigation li{
-	display:table-row;
-	vertical-align: middle;
+	vertical-align: top;
+	display: inline-block;
+	left-margin: auto;
+	right-margin: auto;
 
+}
+.navigation{
+	text-align: center;
 }
 
 .link-soup-nav li {
