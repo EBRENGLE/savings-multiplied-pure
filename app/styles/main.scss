@@ -31,6 +31,7 @@ $body-font-family: 'Tahoma Regular', "Helvetica Neue", "Helvetica", Helvetica, A
 
 .header-box {
 	background-color: white;
+	max-width: 900px;
 	margin-left: 10%;
 	margin-right: 10%;
 	margin-top: 50px;
@@ -68,11 +69,13 @@ $body-font-family: 'Tahoma Regular', "Helvetica Neue", "Helvetica", Helvetica, A
 
 .main-content-wrapper {
 	background-color: white;
+	max-width: 900px;
 	margin-left: 10%;
 	margin-right: 10%;
 	margin-bottom: 50px;
 	border-radius: 0 0 20px 20px;
 	padding: 30px;
+	box-sizing: border-box;
 }
 
 //Nav Buttons
@@ -125,6 +128,8 @@ h3 {
 }
 
 .pagebreak {
-	background-image: url('https://raw.githubusercontent.com/elizabrock/SavingsMultipliedRedux/master/app/assets/images/homepage/dotted_line_44x9.png')
+	width: 800px;
+	height: 20px;
+	background-image: url('https://raw.githubusercontent.com/elizabrock/SavingsMultipliedRedux/master/app/assets/images/homepage/dotted_line_44x9.png');
 	background-repeat: repeat-x;
 }
