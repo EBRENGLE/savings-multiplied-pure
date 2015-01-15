@@ -147,6 +147,12 @@ h3 {
 .main-content-kids {
 	width:
 }
+.main-content-wrapper p a{
+	font-family: sans-serif;
+	font-weight: $header-font-weight;
+	font-size: 2.2em;
+	color: #398A91;
+}
 
 .pagebreak {
 	width: 900px;
@@ -157,19 +163,20 @@ h3 {
 .navigation li a{
 	font-family: 'Lemon', cursive;
 	font-size: 2em;
-	vertical-align: middle;
-
-
+	color: #5B1339;
 }
 .navigation li{
-	vertical-align: top;
-	display: inline-block;
-	left-margin: auto;
-	right-margin: auto;
-
+	font-family: $header-font-family;
+	font-weight: $header-font-weight;
+}
+.navigation li:nth-child(n+2){
+	padding-left:5em;
 }
 .navigation{
-	text-align: center;
+	padding-top:.75em;
+	padding-bottom: .75em;
+margin:auto;
+text-align: center;
 }
 
 .link-soup {
