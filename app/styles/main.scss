@@ -93,7 +93,7 @@ $body-font-family: 'Tahoma Regular', "Helvetica Neue", "Helvetica", Helvetica, A
 	max-width: 1500px;
 	margin-left: 10%;
 	margin-right: 10%;
-	margin-bottom: 50px;
+	margin-bottom: 10px;
 	border-radius: 0 0 20px 20px;
 	padding: 30px;
 	box-sizing: border-box;
@@ -193,7 +193,22 @@ margin:auto;
 text-align: center;
 }
 
+.link-soup {
+	text-align: center;
+	padding-bottom: 120px;
+}
+
+.link-soup-nav {
+	padding: 0;
+}
 .link-soup-nav li {
 	display: inline;
 	list-style-type: none;
+	padding: 1.2em;
+	color: white;
+		a:link {
+    		color: #FF0000;
+    		text-decoration: none;
+    		color: white;
+	}
 }
