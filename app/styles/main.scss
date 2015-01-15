@@ -3,6 +3,7 @@
 
 //Fonts and Font-Family Variables From GitHub
 
+
 $header-font-family: "cooper-black-std", serif;
 $header-font-weight: normal;
 
@@ -10,7 +11,6 @@ $h2-font-size: em-calc(28);
 $h3-font-size: em-calc(24);
 $h4-font-size: em-calc(18);
 $h5-font-size: em-calc(16);
-
 $body-font-family: 'Tahoma Regular', "Helvetica Neue", "Helvetica", Helvetica, Arial, sans-serif;
 
 .header {
@@ -51,6 +51,26 @@ $body-font-family: 'Tahoma Regular', "Helvetica Neue", "Helvetica", Helvetica, A
 		font-size: 20px;
 }
 
+.textlinks {
+	list-style-type: none;
+	float: right;
+	position: relative;
+	top: -60px;
+	right: 20px;
+	font-size: 1.5em;
+
+	li{
+			display: inline;
+
+		}
+		a:visited
+		{color: #398A91;
+		}
+		a:link
+		{color: #398A91;
+		}
+
+}
 
 .main-nav ul li {
 	display: inline;
@@ -132,4 +152,19 @@ h3 {
 	height: 20px;
 	background-image: url('https://raw.githubusercontent.com/elizabrock/SavingsMultipliedRedux/master/app/assets/images/homepage/dotted_line_44x9.png');
 	background-repeat: repeat-x;
+}
+
+.navigation li a{
+	font-family: 'Lemon', cursive;
+	font-size: 2em;
+	vertical-align: middle;
+
+
+}
+.navigation li{
+	display:table-row;
+	vertical-align: middle;
+	
+}
+.navigation {
 }

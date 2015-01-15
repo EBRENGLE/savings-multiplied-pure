@@ -14,10 +14,18 @@ html(lang="en-US")
 
     .pure-g
       .pure-u-1.header
+        
         .pure-g.header-box
           .pure-u-10-24
+            
             img.left-header-image(src='https://raw.githubusercontent.com/elizabrock/SavingsMultipliedRedux/master/app/assets/images/savings-multiplied-logo.png')
           .pure-u-14-24
+            ul.textlinks 
+              li.signIn 
+              a(href="#") sign in 
+              li | 
+              li.signOut 
+              a(href="#") sign out
             ul.heading-navigation
               li.about-nav About
               li.contact-nav Contact
@@ -26,15 +34,20 @@ html(lang="en-US")
             img.tagline(src="https://raw.githubusercontent.com/elizabrock/SavingsMultipliedRedux/master/app/assets/images/tagline.png")
       .pure-u-1
         .pure-g.main-nav
-          .pure-u-1-3
-          .pure-u-1-3
+          .pure-u-1-12
+          .pure-u-10-12
             ul.navigation
-              li Buy
-              li Sell
-              li How it Works
-              li Links
-              li Community
-          .pure-u-1-3
+              li 
+                a Buy
+              li 
+                a Sell
+              li 
+                a How it Works
+              li 
+                a Links
+              li 
+                a Community
+          .pure-u-1-12
       .pure-u-1.body-wrapper
         .pure-g.main-content-wrapper
           .pure-u-3-5
