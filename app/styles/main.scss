@@ -153,6 +153,19 @@ h3 {
 	font-size: 2.2em;
 	color: #398A91;
 }
+#searchbackground
+input
+{
+
+	border: 2px solid #E399A7;
+	background: white url('http://www.johnpratt.com/images/icons/search.gif') no-repeat;
+	background-size: 10%;
+	background-position:left;
+	padding: 0.25em;
+	padding-left: 30px;
+	border-radius: 25px;
+
+}
 
 .pagebreak {
 	width: 900px;
@@ -164,6 +177,7 @@ h3 {
 	font-family: 'Lemon', cursive;
 	font-size: 2em;
 	color: #5B1339;
+	vertical-align: center;
 }
 .navigation li{
 	font-family: $header-font-family;
